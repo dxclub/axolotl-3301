@@ -1,0 +1,255 @@
+<!-- Dx Club Meeting,  April 7th, 2021.
+    The code found in this project was created for the 
+    routine coding challenge that takes place at the beginning of every Dx Club meeting. This week, the responibility of creating an event landed on the Dx Club Programming team, so we creaetd a moderately difficult decoding challenge.
+
+    For this meeting, we decided to focus on the coding/programming prowess of the Dx Club members, and the event focuses on an Elite Group of hackers looking to recruit more members. They recently lost a couple of hackers due to incompentency so they have made sure to be really careful in creating their codes to recruit more members. Hopefully the Dx Club can step in and fix this problem!
+
+    The code was worked on by Laura C., Diego G., and Salvador G. over the course of 2
+    days. We have tried our best to reference all of the code that we have borrowed,
+    and unless specified, all code was written by the 3 programmers listed above.
+-->
+
+<!-- Diego here: I found this cool template for an HTML file and decided it would be a cool
+addition to what we were already working on. The HTML is a free template and can be found
+at https:https://www.w3schools.com/w3css/tryw3css_templates_dark_portfolio.htm#contact
+where you can download it and play with it too!
+  -------------------------------------------
+  The website was accessed on April 7th, 2021
+-->
+
+
+<!DOCTYPE html>
+<html>
+<title>Axolotl 3301</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="ax_anon.jpeg" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#challenges" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>CHALLENGES</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#challenges" class="w3-bar-item w3-button" style="width:25% !important">CHALLENGES</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">We are</span> Axolotl 3301</h1>
+    <p>We seek the best and smartest hackers in the world.</p>
+    <img src="world_dom.jpeg" alt="rulers of the world" class="w3-image" width="992" height="1108">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Objective:</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>To whom this may concern. We are <b>Axolotl 3301</b> and we are looking to fill some vacancies after a team of our interns were detained by Russian authorities during operation Walking Fish. While we can not reveal the inner details of the mission, we can share that it was an on location attempt to gain intelligence. The team was unfortunately sent to the Gulag. The following challenges are intended to cull the general population of interested hackers and recruit a new team who will hopefully know better than to work remotely from the comfort of a Ukrainian restaurant with free wifi...<br>
+
+
+
+    <br>
+    <b>
+    We aren't just some college kids with nothing better to do, or some club just coming up with a fun activity. We are a super serious group of hackers with BIG INTENTIONS to completely revolutionize the world.
+    </b>
+
+
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">Our Skills</h3>
+    <p class="w3-wide">Hacking</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">Social Engineering</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Secrecy</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div><br>
+    
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">11+</span><br>
+        Countries attacked
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">55+</span><br>
+        Companies breached
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">89+</span><br>
+        Happy Clients
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">150+</span><br>
+        Successful Hacks
+      </div>
+    </div>
+
+    <!-- Grid for pricing tables -->
+    <h3 class="w3-padding-16 w3-text-light-grey">Pricing</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
+          <li class="w3-padding-16">Website Breaching</li>
+          <li class="w3-padding-16">Semi-Regular Progress reports</li>
+          <li class="w3-padding-16">2 Hackers</li>
+          <li class="w3-padding-16">Results within the month</li>
+          <li class="w3-padding-16">
+            <h2>$100k</h2>
+            <span class="w3-opacity">per week</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Get Results</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
+          <li class="w3-padding-16">Database Breaching</li>
+          <li class="w3-padding-16">Direct Contact to hacker handlers</li>
+          <li class="w3-padding-16">Full Axolotl Support</li>
+          <li class="w3-padding-16">Results within the week</li>
+          <li class="w3-padding-16">
+            <h2>$1,000,000</h2>
+            <span class="w3-opacity">per day</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Change the World</button>
+          </li>
+        </ul>
+      </div>
+    <!-- End Grid/Pricing tables -->
+    </div>
+    
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
+    <img src="elonblunt.jpeg" alt="Elon Musk" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Elon Musk.</span> CEO at Tesla, SpaceX, The Boring Company, HyperLoop.</p>
+    <p>Axolotl 3301 is who I would trust to take the world to the stars if I wasn't already working on it. They are unrivaled in their coding prowess, and they are some of the only people in the world who I wouldn't wanna mess with. </p><br>
+
+    <img src="billygates.jpeg" alt="Bill Gates" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Bill Gates.</span> Tech Pioneer and Philantropist</p>
+    <p>Knowing a thing or two about computers, I know that Axolotl 3301 knows a lot of things about computers. A lot of things that most people don't know, and this makes them dangerous. I respectfully fear Axolotl 3301 and apart from Global Warming and getting rid of infectious diseases, they are one of my biggest priorities..............I don't know what they're planning, but all I know is that when that many hackers of that quality get together, it can be nothing but trouble.</p><br>
+    
+    <img src="succerberg.jpeg" alt="Marky Zuckerberg" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Mark Zuckerberg.</span> CEO at Facebook and Andriod</p>
+    <p>Honestly, I'm very jealous of Axototl 3301. They're a bigger threat than I am some times, and that says a lot. Props to them!</p>
+  <!-- End About Section -->
+  </div>
+
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="challenges">
+    <h2 class="w3-text-light-grey">Challenges</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <p>================================================================<br>
+    Challenge 1
+    <br>================================================================<br>
+
+    As an introduction to this three part challenge saga, find the correct integer number to continue on this recruitment path. Bonus points for taking the hard route.<br>
+
+    <br>[EASY]<br>
+    Find the most frequently repeating number in this array
+
+    array = [76, 93, 35, 13, 86, 39, 86, 9, 2, 47, 55, 12, 35, 78, 96, 70, 47,
+             28, 8, 77, 91, 94, 49, 40, 34, 47, 55, 58, 36, 22, 29, 16, 14, 66,
+             74, 59, 67, 34, 98, 23, 67, 14, 48, 13, 15, 0, 68, 79, 35, 35, 82,
+             99, 49, 46, 35, 40, 0, 83, 37, 72, 81, 26, 76, 40, 65, 19, 79,
+             88, 84, 0, 15, 72, 7, 21, 44, 15, 6, 22, 76, 69, 87, 63, 0, 27,
+             31, 7, 3, 11, 62, 63, 22, 50, 26, 1, 17, 78, 19, 52, 6, 53]<br>
+
+    Notes:
+    size of the array is 100
+    0 <= array[i] < 100
+    array[i] is non-negative<br>
+
+    <br>[HARD]<br>
+    Given an array of heights, a graph can be developed such that each number in the array corresponds to a bar, each bar being 1 space apart. Below is a graph representing the given data.<br>
+    <img src="challenge1.jpeg" alt="example graph of challenge1" class="w3-image" width="992" height="1108">
+    Your mission is to find two lines, which form a container, such that the container contains the largest possible area.<br>
+
+    <br>Input: heights = [9, 2, 1, 4, 8, 7]<br>
+    Output: ???<br>
+
+    <br>================================================================<br>
+    Challenge 2
+    <br>================================================================<br>
+
+    You're now one step closer to forming part of the secret hacking group. Start getting your passport ready and schedule your covid vaccine appointment because pretty soon you'll be joining your new team at a top-secret location abroad. Use the output number from Challenge 1 to decode this message.<br>
+
+    <br>string = <b>"5789,:;<=?2@BBD7FFGH&#60;KK?NNOPQETGVWXYYM[\^Q_abcdWffZhik^mnaopqrsguwwylz{|~"</b><br>
+
+    -Let c be the output for Challenge 1<br>
+    -Let i be the index of y<br>
+
+    -Use this equation to solve this challenge: <b>y = x - (c % 2 + c / 5) - i</b><br>
+    <img src="challenge2.jpeg" alt="Decoding graph for the 2nd challenge" class="w3-image" width="992" height="1108"><br>
+
+     <br>================================================================<br>
+        Challenge 3
+      <br>================================================================<br>
+      Almost done! The final step is to use the decoded message from challenge 2 as instructions for parsing the following string. Upon successful completion of this challenge, you will be eligible to start your journey as an elite hacker.<br>
+
+      Parse the following string with the instructions from Challenge 2:<br>
+
+      <br> string2 = <b>Q&#60;h]l@oJ&#60;q[]dHIrrh-%u%!Ld6--?h57^)Trd1{0dA()GG9@xnt 3C2I]X`ZqH9Odz{,_`_M5Grjh?kAk\dEQc!o[qB?nfq$Q`HlldWZq?\##AP>#<b><br>
+
+
+      <br>
+      <br>
+      We hope to hear back from you soon........ - Ax. 3301
+      <br>
+      <br>
+
+      <br>With much love, The Dx Club, April 7th 2021 - Dx Programming Team<br>
+    </p>
+  <!-- End Contact Section -->
+  </div>
+  
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
